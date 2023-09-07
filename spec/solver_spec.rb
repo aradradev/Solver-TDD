@@ -20,4 +20,15 @@ RSpec.describe Solver do
       end.to raise_error(ArgumentError, 'Factorial with negative number is not defined')
     end
   end
+
+  describe '#reverse' do
+    it 'returns a reversed string' do
+        expect(solver.reverse('hello')).to eq('olleh')
+        expect(solver.reverse('world')).to eq('dlrow')
+    end
+
+    it 'returns empty string' do
+        expect(solver.reverse('')).to eq('')
+    end
+  end
 end
