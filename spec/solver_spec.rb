@@ -23,12 +23,12 @@ RSpec.describe Solver do
 
   describe '#reverse' do
     it 'returns a reversed string' do
-        expect(solver.reverse('hello')).to eq('olleh')
-        expect(solver.reverse('world')).to eq('dlrow')
+      expect(solver.reverse('hello')).to eq('olleh')
+      expect(solver.reverse('world')).to eq('dlrow')
     end
 
     it 'returns empty string' do
-        expect(solver.reverse('')).to eq('')
+      expect(solver.reverse('')).to eq('')
     end
   end
 end
