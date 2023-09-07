@@ -10,7 +10,7 @@
 
 ## 📗 Table of Contents
 
-- [📖 Test Driven Development performance ](#-Create a school library-)
+- [📖 Test Driven Development performance ](#-Create a TDD performance-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -30,10 +30,7 @@
 
 # 📖 TEST DRIVEN DEVELOPMENT PERFORMANCE <a name="about-project"></a>
 
-**TEST DRIVEN DEVELOPMENT PERFORMANCE** project records what books are in the library and who borrows them. This app allow users to:
-Add new students or teachers.
-Add new books.
-Save records of who borrowed a given book and when..
+**TEST DRIVEN DEVELOPMENT PERFORMANCE** The idea behind test-driven development (TDD) is that tests are not an afterthought. Also, it makes you think about how your code behaves before starting to code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
