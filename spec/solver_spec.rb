@@ -34,25 +34,24 @@ RSpec.describe Solver do
 
   describe '#fizzbuzz' do
     it 'returns "Fizz" for multiple of 3' do
-        expect(solver.fizzbuzz(3)).to eq('Fizz')
-        expect(solver.fizzbuzz(9)).to eq('Fizz')
-        expect(solver.fizzbuzz(18)).to eq('Fizz')
+      expect(solver.fizzbuzz(3)).to eq('Fizz')
+      expect(solver.fizzbuzz(9)).to eq('Fizz')
+      expect(solver.fizzbuzz(18)).to eq('Fizz')
     end
 
     it 'returns "Buzz" for multiple of 5' do
-        expect(solver.fizzbuzz(5)).to eq('Buzz')
-        expect(solver.fizzbuzz(45)).to eq('Buzz')
-        expect(solver.fizzbuzz(75)).to eq('Buzz')
+      expect(solver.fizzbuzz(5)).to eq('Buzz')
+      expect(solver.fizzbuzz(10)).to eq('Buzz')
     end
 
     it 'returns "FizzBuzz" for multiple of both 3 and 5' do
-        expect(solver.fizzbuzz(15)).to eq("FizzBuzz")
-        expect(solver.fizzbuzz(30)).to eq("FizzBuzz")
+      expect(solver.fizzbuzz(15)).to eq('FizzBuzz')
+      expect(solver.fizzbuzz(30)).to eq('FizzBuzz')
     end
 
     it 'returns the number as string for other cases' do
-        expect(solver.fizzbuzz(7)).to eq('7')
-        expect(solver.fizzbuzz(1)).to eq('1')
+      expect(solver.fizzbuzz(7)).to eq('7')
+      expect(solver.fizzbuzz(1)).to eq('1')
     end
   end
 end
