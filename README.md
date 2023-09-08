@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>TEMPLATE FOR RUBY LINTERS CONFIGURATION READY TO BE USED</b></h1>
+  <h1><b>TEST DRIVEN DEVELOPMENT PERFORMANCE</b></h1>
 
 </div>
 
@@ -10,7 +10,7 @@
 
 ## 📗 Table of Contents
 
-- [📖 Template for Ruby linters configuration ready to be used ](#-Create a school library-)
+- [📖 Test Driven Development performance ](#-Create a TDD performance-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,12 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 TEMPLATE FOR RUBY LINTERS CONFIGURATION READY TO BE USED <a name="about-project"></a>
+# 📖 TEST DRIVEN DEVELOPMENT PERFORMANCE <a name="about-project"></a>
 
-**TEMPLATE FOR RUBY LINTERS CONFIGURATION READY TO BE USED** project records what books are in the library and who borrows them. This app allow users to:
-Add new students or teachers.
-Add new books.
-Save records of who borrowed a given book and when..
+**TEST DRIVEN DEVELOPMENT PERFORMANCE** The idea behind test-driven development (TDD) is that tests are not an afterthought. Also, it makes you think about how your code behaves before starting to code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,7 +73,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-  git clone https://github.com/aradradev/template-ruby-linters.git
+  git clone https://github.com/aradradev/Solver-TDD.git
 ```
 
 ### Install
@@ -84,7 +81,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```bash
-  cd 
+  cd Solver-TDD
   bundle install
 ```
 
@@ -98,7 +95,15 @@ it will install the required gemfile for running the project
 
 👤 **Author**
 
-- GitHub: [@author](https://github.com/author)
+👤 **Ayodele Isaac**
+
+- GitHub: [@mosidrum](https://github.com/mosidrum)
+- LinkedIn: [mosidrum](https://linkedin.com/in/isaac-ayodele-37890521b/)
+
+👤 **Jalloh**
+
+- GitHub: [@aradradev](https://github.com/aradradev)
+- LinkedIn: [Abdourahmane Jalloh](https://www.linkedin.com/in/abdul-jalloh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
